@@ -1,0 +1,59 @@
+/*** General Styles  ***/
+
+body {
+    top: 30px;
+}
+.main-logo {
+    position: relative;
+    float: left;
+    max-width: 120px;
+    padding-left: 5px;
+}
+.main-logo img {
+    width: 100%;
+}
+.profile-pic {
+    display: inline;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-top: -8px;
+}
+/*** Foundation Overrides  ***/
+
+/*** Portlets ***/
+
+.portlet {
+    border: 1px solid #ddd;
+    min-width: 100px;
+    min-height: 100px;
+}
+.portlet-header {
+    min-height: 30px;
+    border-bottom: #ddd;
+    background-color: #024d65;
+    color: #fff;
+    padding: 0px 5px 0px 5px;
+}
+.portlet-header p {
+    font-size: 1.1em;
+}
+.portlet-top-icons {
+    font-size: 1em;
+    padding: 3px;
+}
+.portlet-top-icons p {
+    cursor: pointer;
+}
+/*** Widgets ***/
+
+.widget {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #27a9e3;
+}
+.widget-footer {
+    bottom: 0;
+    min-height: 15px;
+    background-color: #208dbe;
+    font-size: 0.6em;
+}
