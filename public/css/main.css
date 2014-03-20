@@ -1,4 +1,4 @@
-/*** General Styles  ***/
+/*** General Document Styles  ***/
 
 body {
     top: 30px;
@@ -20,12 +20,16 @@ body {
 }
 /*** Foundation Overrides  ***/
 
+/*** General Component Styles  ***/
+
 /*** Portlets ***/
 
 .portlet {
     border: 1px solid #ddd;
     min-width: 100px;
     min-height: 100px;
+    margin-bottom: 1.25rem;
+    height: auto;
 }
 .portlet-header {
     min-height: 30px;
@@ -44,6 +48,23 @@ body {
 .portlet-top-icons p {
     cursor: pointer;
 }
+.portlet-body {
+    position: relative;
+    padding: 5px;
+    margin-bottom: 3px;
+    height: auto;
+ }
+.portlet-body thead {
+    background-color: #ddd;
+}
+.portlet-body th {
+    font-size: 0.6em;
+    text-align: center;
+}
+.portlet-body td {
+    font-size: 0.7em;
+}
+
 /*** Widgets ***/
 
 .widget {
@@ -52,6 +73,7 @@ body {
     background-color: #27a9e3;
     color: #fff;
     position: relative;
+    margin-bottom: 1.25rem;
 }
 .widget-body{
     position: absolute;
