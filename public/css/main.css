@@ -25,11 +25,12 @@ body {
 /*** Portlets ***/
 
 .portlet {
+    position: relative;
     border: 1px solid #ddd;
     min-width: 100px;
     min-height: 100px;
     margin-bottom: 1.25rem;
-    height: auto;
+    height: 300px;
 }
 .portlet-header {
     min-height: 30px;
@@ -50,7 +51,7 @@ body {
 }
 .portlet-body {
     position: relative;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 3px;
     height: auto;
  }
@@ -63,6 +64,10 @@ body {
 }
 .portlet-body td {
     font-size: 0.7em;
+}
+.portlet-body table {
+    position: relative;
+    width: 100%;
 }
 
 /*** Widgets ***/
